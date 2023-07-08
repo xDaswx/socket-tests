@@ -8,10 +8,6 @@ const server = http.createServer(app)
 const io = socketIO(server)
 
 
-// Rota para servir o arquivo HTML
-app.get('/chat', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html');
-});
 
 server.listen(80, ()=> console.log('Sucesso! websocket'));
 

@@ -7,7 +7,7 @@ const app = express()
 const server = http.createServer(app)
 const io = socketIO(server)
 
-server.listen(3000, ()=> console.log('Sucesso! websocket'));
+server.listen(80, ()=> console.log('Sucesso! websocket'));
 
 app.use(express.static(path.join(__dirname,"public")))
 

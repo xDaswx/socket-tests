@@ -12,3 +12,11 @@ npm run dev
 
 after run:
 go to http://localhost/
+
+
+
+deploy can be made for free on platforms like glitch.com
+https://glitch.com/dashboard
+
+my deployment is:
+https://everlasting-clover-bird.glitch.me/chat

@@ -11,4 +11,4 @@ npm install
 npm run dev
 
 after run:
-go to http://localhost:3000/
+go to http://localhost:80/

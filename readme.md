@@ -11,4 +11,4 @@ npm install
 npm run dev
 
 after run:
-go to http://localhost:80/
+go to http://localhost/chat
